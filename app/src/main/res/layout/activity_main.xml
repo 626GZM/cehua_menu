@@ -23,14 +23,14 @@
             android:text="这是主界面"
             android:gravity="center"
             ></TextView>
-        <android.support.design.widget.NavigationView
+        <com.google.android.material.navigation.NavigationView
             android:layout_width="180dp"
             android:layout_height="match_parent"
             android:id="@+id/nav_view"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:menu="@menu/drawer_menu">
-        </android.support.design.widget.NavigationView>
+        </com.google.android.material.navigation.NavigationView>
     </androidx.drawerlayout.widget.DrawerLayout>
 </LinearLayout>
 
